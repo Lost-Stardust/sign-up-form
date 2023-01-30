@@ -23,7 +23,7 @@ body{
 .logo-container{
     font-family: 'Elsie', cursive;
     width: 100%;
-    height: 17vh;
+    height: 8em;
     position: relative;
     top: 100px;
     z-index: 1;
