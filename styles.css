@@ -2,8 +2,26 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+    color: white;
 }
 .cat{
-    width: 67vh;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.logo{
+    width: 36.9vw;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    margin-top: 160px;
+}
+.odin{
+    width: 80px;
+    min-width: 40px;
+    float: left;
 }
