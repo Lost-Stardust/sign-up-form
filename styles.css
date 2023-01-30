@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 body{
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +12,7 @@ body{
     z-index: 0;
 }
 .logo{
+    font-family: 'Elsie', cursive;
     width: 36.9vw;
     position: absolute;
     z-index: 1;
