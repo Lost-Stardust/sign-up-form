@@ -24,13 +24,13 @@ body{
     font-family: 'Elsie', cursive;
     width: 100%;
     height: 17vh;
-    position: absolute;
+    position: relative;
+    top: 100px;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(73, 0, 102, 0.623);
-    margin-top: 100px;
 }
 .odin{
     width: 80px;
