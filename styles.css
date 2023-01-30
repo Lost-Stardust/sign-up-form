@@ -6,7 +6,7 @@ body{
     background-color: rgb(46, 46, 46);
     color: white;
 }
-.img-box{
+.cat-box{
     background-color: blueviolet;
     width: 36.9vw;
     height: 99.4vh;
@@ -20,7 +20,7 @@ body{
     position: absolute;
     z-index: 0;
 }
-.logo{
+.logo-container{
     font-family: 'Elsie', cursive;
     width: 100%;
     height: 17vh;
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     background-color: rgba(73, 0, 102, 0.623);
 }
-.odin{
+.logo{
     width: 80px;
     min-width: 40px;
     float: left;
