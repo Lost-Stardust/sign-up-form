@@ -50,3 +50,11 @@ a{
 a:visited{
     color: black;
 }
+.form-box{
+    position: fixed;
+    left: 42vw;
+}
+.text{
+    font-size: 23px;
+    margin-top: 110px;
+}
