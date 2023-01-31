@@ -102,3 +102,28 @@ input:focus{
     box-shadow:  5px 5px 10px #d0d0d0,
     -5px -5px 10px #f0f0f0;
 }
+.btn-box{
+    position: fixed;
+    left: 39.7vw;
+    top: 76vh;
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    margin: 0;
+    box-sizing: border-box;
+    width: 190px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: #48b5d4;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.login{
+    font-size: 15px;
+}
+.login a {
+    text-decoration: none;
+    color: #48b5d4;
+}
