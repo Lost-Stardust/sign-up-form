@@ -52,9 +52,41 @@ a:visited{
 }
 .form-box{
     position: fixed;
-    left: 42vw;
+    left: 37vw;
+    width: 63vw;
 }
 .text{
     font-size: 23px;
     margin-top: 110px;
+    margin-left: 40px;
+}
+form{
+    margin-left: 40px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+fieldset{
+    margin: 8px;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+    width: 80%;
+    border: none;
+}
+input{
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px;
+    width: 15vw;
+    height: 3.4vh;
+    border-style: none;
+    border: 2px solid rgb(105, 105, 105);
+    border-radius: 5px;
+}
+label{
+    display: block;
+    font-size: 12px;
 }
