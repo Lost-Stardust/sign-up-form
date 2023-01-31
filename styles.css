@@ -53,9 +53,12 @@ a:visited{
 }
 .form-box{
     position: fixed;
-    left: 37vw;
+    left: 36.9vw;
     width: 63vw;
     font-family: 'Open Sans', sans-serif;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-bottom: 20px;
 }
 .text{
     font-size: 23px;
