@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html,body{
+    height: 100%;
+}
 body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 .cat-box{
-    background-color: blueviolet;
-    width: 36.9vw;
-    height: 100vh;
+    background-image: url(images/Cat.jpg);
+    width: 40vw;
+    min-height: 100%;
     padding: 0;
     margin: 0;
-    position: absolute;
+    position: relative;
 }
 .cat{
-    height: 100%;
-    width: 100%;
     position: absolute;
     z-index: 0;
 }
@@ -48,28 +50,25 @@ body{
 a{
     color: white;
 }
-a:visited{
-    color: black;
-}
 .form-box{
-    position: fixed;
+    top: 0;
     left: 36.9vw;
     width: 63vw;
     font-family: 'Open Sans', sans-serif;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     padding-bottom: 20px;
 }
 .text{
     font-size: 23px;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 40px;
 }
 form{
-    margin-left: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    box-shadow: 0 10px 5px -5px rgb(196, 196, 196);
 }
 fieldset{
     margin: 8px;
@@ -103,25 +102,30 @@ input:focus{
     -5px -5px 10px #f0f0f0;
 }
 .btn-box{
-    position: fixed;
-    left: 39.7vw;
-    top: 76vh;
+    margin-left: 38px;
+    margin-top: 40px;
     font-family: 'Open Sans', sans-serif;
 }
 button{
     margin: 0;
     box-sizing: border-box;
-    width: 190px;
-    height: 50px;
+    width: 200px;
+    height: 43px;
     border-radius: 7px;
     border: none;
     background-color: #48b5d4;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 900;
 }
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: #48afcc;
+}
 .login{
-    font-size: 15px;
+    font-size: 13px;
 }
 .login a {
     text-decoration: none;
