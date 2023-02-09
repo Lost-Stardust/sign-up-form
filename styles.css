@@ -128,3 +128,11 @@ button:active{
     text-decoration: none;
     color: #48b5d4;
 }
+.pw-match{
+    color: red;
+    font-size: 9px;
+    margin: 0;
+}
+.error{
+    border-color: red;
+}
