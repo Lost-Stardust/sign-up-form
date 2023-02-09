@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="cat-box">
@@ -51,11 +51,12 @@
             <fieldset>
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
+                    <input class="error" type="password" id="password" name="password">
+                    <p class="pw-match">*password does not match</p>
                 </div>
                 <div>
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" name="confirm-password">
+                    <input class="error" type="password" id="confirm-password" name="confirm-password">
                 </div>
             </fieldset>
         </form>
